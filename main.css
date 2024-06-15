@@ -18,14 +18,14 @@
 /* 媒体查询，大屏 */
 @media (min-width: 768px) {
 .aplayer .aplayer-lrc {
-  transform: scale(1.5); /* 将容器放大/缩小多少倍 */
+  transform: scale(0.4); /* 将容器放大/缩小多少倍 */
 }
 }
 
 /* 媒体查询，小屏 */
 @media (max-width: 767px) {
 .aplayer .aplayer-lrc {
-  transform: scale(1.5); /* 将容器放大/缩小多少倍 */
+  transform: scale(0.5); /* 将容器放大/缩小多少倍 */
 }
 }
 
