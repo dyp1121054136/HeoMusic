@@ -18,7 +18,7 @@
 /* 媒体查询，大屏 */
 @media (min-width: 768px) {
 .aplayer .aplayer-lrc {
-  transform: scale(0.4); /* 将容器缩小多少倍 */
+  transform: scale(1); /* 将容器缩小多少倍 */
 }
 }
 
