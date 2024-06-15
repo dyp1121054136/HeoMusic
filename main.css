@@ -1,3 +1,8 @@
+#heoMusic-page.aplayer-info.aplayer-lrc {
+  transform-origin: top left; /* 设置放大原点为左上角 */
+  transform: scale(0.5); /* 将容器缩小多少倍 */
+}
+
 @charset "UTF-8";
 
 :root {
