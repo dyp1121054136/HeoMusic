@@ -25,7 +25,7 @@
 /* 媒体查询，小屏 */
 @media (max-width: 767px) {
 .aplayer .aplayer-lrc {
-  transform: scale(0.5); /* 将容器缩小多少倍 */
+  transform: scale(0.8); /* 将容器缩小多少倍 */
 }
 }
 
