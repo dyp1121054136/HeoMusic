@@ -1,4 +1,4 @@
-/* 等比缩小歌词栏 */
+/* 等比放大/缩小歌词栏 */
 .aplayer .aplayer-lrc {
   transform-origin: top left; /* 设置放大原点为左上角 */
   font-family: "LXGWWenKaiScreen";
@@ -18,18 +18,18 @@
 /* 媒体查询，大屏 */
 @media (min-width: 768px) {
 .aplayer .aplayer-lrc {
-  transform: scale(1); /* 将容器缩小多少倍 */
+  transform: scale(1.5); /* 将容器放大/缩小多少倍 */
 }
 }
 
 /* 媒体查询，小屏 */
 @media (max-width: 767px) {
 .aplayer .aplayer-lrc {
-  transform: scale(1.5); /* 将容器缩小多少倍 */
+  transform: scale(1.5); /* 将容器放大/缩小多少倍 */
 }
 }
 
-/* 等比缩小歌词栏 */
+/* 等比放大/缩小歌词栏 */
 
 @charset "UTF-8";
 
